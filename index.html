@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Xiaolin's portal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 25px;
+  text-align: center;
+  background-image: url('slug.jpg');
+  background-repeat: non-repeat;
+  background-attachment: fixed;
+  background-size: 100% 30%;
+}
+
+
+  
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+  
+  /* 文字展示距离左边界的距离 */
+    #main {margin-left: 50px}    
+
+  
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Xiaolin's Portal</h1>
+</div>
+
+<div class="topnav">
+  <a href="https://xliu241.github.io/page/">Home</a>
+  <a href="https://xliu241.github.io/page/database">Database</a>
+  <a href="https://xliu241.github.io/page/kits">Kits</a>
+  <a href="#">Community</a>
+  <a style="float:right" class="active" href="https://xliu241.github.io/#" target="_blank">About</a>
+</div>
+
+
+
+<div class="row" id="main">
+  <div class="column" margin: 100>
+    <h2>Often used</h2>
+    <p class="w3-justify">                  
+      
+       <ol>
+                    <p><li><a href="https://www.ncbi.nlm.nih.gov/" target='_blank'>NCBI</a></p>
+                    <p><li><a href="https://www.ebi.ac.uk/" target='_blank'>EBI</a></p></p>
+                    <p><li><a href="https://c3bi.pasteur.fr/hub/tools/" target='_blank'>Pasteur-tools</a></p>
+                    <p><li><a href="http://abc.cbi.pku.edu.cn/index.php" target='_blank'>abc</a></p>
+                    <p><li><a href="https://www.ibi.vu.nl/programs/" target='_blank'>IBIVU</a></p>
+                    <p><li><a href="https://toolkit.tuebingen.mpg.de/" target='_blank'>MPI-toolkit</a></p>
+                    <p><li><a href="http://molbiol-tools.ca/" target='_blank'>Online-tools</a></p> 
+                    <p><li><a href="https://nmdc.cn/" target='_blank'>National Microbiology Data Center</a></p>                                         
+                          </ol>        
+   </p>
+
+  </div>
+  
+  <div class="column">
+    <h2>Microbial genomic resources</h2>
+         <p class="w3-justify">     
+                                                <ol>
+              <p><li><a href="http://www.microbesonline.org/" target='_blank'>Microbesonline</a></p>
+              <p><li><a href="https://gtdb.ecogenomic.org/" target='_blank'>GTDB</a></p></p>
+              <p><li><a href="https://mistdb.com/" target='_blank'>Mistdb</a></p>
+              <p><li><a href="http://microbes.ucsc.edu/" target='_blank'>UCSC microbial Genomie browser</a></p>
+                                                </ol>      
+
+  </div>
+
+</div> 
+
+  <div class="row" id="main">
+  <div class="column" margin: 100>
+    <h2>Protein</h2>
+    <p class="w3-justify">                  
+      
+                                                                                               <ol>
+                   <p><li><a href="https://www.uniprot.org/" target='_blank'>Uniprot</a>, a comprehensive resource for protein sequence and annotation data</p>
+                   <p><li><a href="https://dtu.biolib.com/DeepTMHMM" target='_blank'>DeepTMHHM</a>, Transmembrane prediction</p>
+                   <p><li><a href="http://www.ncbi.nlm.nih.gov/cdd/" target='_blank'>CDD</a>, Conserved domain database</p>
+                   <p><li><a href="https://www.ebi.ac.uk/interpro/" target='_blank'>Interpro</a>, Database of protein families instead of old Pfam database</p>
+                   <p><li><a href="http://smart.embl-heidelberg.de/" target='_blank'>SMART</a>, a simple modular architecture research tool</p>
+                   <p><li><a href="http://annotree.uwaterloo.ca/app/" target='_blank'>Annotree</a>, a web tool to facilitate visualization of genome annotations across large phylogenetic trees</p>   
+                   <p><li><a href="http://trend.evobionet.com/" target='_blank'>TREND</a>, Tree-based Exploration of Neighborhoods and Domains</p>   
+                   <p><li><a href="https://www.ebi.ac.uk/Tools/hmmer/" target='_blank'>HMMER</a>, fast and sensitive homology searches</p>
+                   <p><li><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=index" target='_blank'>Phyre2</a>, Protein Homology/analogY Recognition Engine V 2.0</p> 
+                   <p><li><a href="http://cdvist.joulinelab.org/" target='_blank'>CD-vist</a>, a sequence-based protein domain search tool</p>
+                   <p><li><a href="https://swissmodel.expasy.org/" target='_blank'>SWISS-model</a>, a fully automated protein structure homology-modelling server</p>
+                   <p><li><a href="https://predictprotein.org/" target='_blank'>Predict Protein</a>, prediction for secondary structure, solvent accessibility, transmembrane helices, globular regions, coiled-coil regions</p>
+                   <p><li><a href="https://www.compbio.dundee.ac.uk/jpred/" target='_blank'>Jpred</a>, Protein Secondary Structure Prediction server</p>
+                   <p><li><a href="http://string-db.org/" target='_blank'>String</a>, Database of protein association networks</p>
+                   <p><li><a href="http://aquerium.adebalilab.org/" target='_blank'>Aquerium</a>, a domain-based protein family querier</p>
+                   <p><li><a href="https://static-content.springer.com/esm/art%3A10.1038%2F35051615/MediaObjects/41586_2001_BF35051615_MOESM1_ESM.txt" target='_blank'>H. pylori protein interaction</a>, published data</p>                                                                                          
+                                                                                                                    
+                          </ol>        
+   </p>
+
+  </div>
+  
+  <div class="column">
+    <h2>Comparative and evolutionary genomics</h2>
+         <p class="w3-justify">     
+                
+                                                                                                                 <ol>
+                   <p><li><a href="https://www.ncbi.nlm.nih.gov/research/cog/" target='_blank'>COG</a>, Clusters of Orthologous Genes</p>
+                   <p><li><a href="https://biocyc.org/" target='_blank'>BioCyc</a>, a database collection and website with extensive search and analysis tools</p>                             
+                   <p><li><a href="https://www.evolgenius.info/evolview" target='_blank'>Evolview</a>, a webserver for visualization, annotation, and management of phylogenetic trees</p>                                    
+                   <p><li><a href="https://bacdive.dsmz.de/" target='_blank'>BacDive</a>,  the worldwide largest database for standardized bacterial information</p>                                    
+                   <p><li><a href="http://plannotate.barricklab.org/#annotate-your-engineered-plasmids" target='_blank'>plannotate</a>, plasmid annotation (feature identification)</p>
+                   <p><li><a href="https://www.fruitfly.org/seq_tools/promoter.html" target='_blank'>BDGP</a>, promotor prediction</p> 
+                                                                                                                                   
+                                                                                                                      </ol>    
+
+  </div>
+
+</div> 
+    
+</body>
+</html>
